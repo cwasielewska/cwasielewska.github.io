@@ -65,17 +65,6 @@ body[data-scaled-to="h"] .paper-vertical:after { display:none; }
 body[data-scaled-to='h'] .paper-horizontal { margin:0; }
 body[data-scaled-to='h'] .paper-horizontal .page { margin-top:0; }
 
-#in5footer,#demoNote,#loadIndicator{
-	min-width:100%;
-	color:#fff;
-	background:#666;
-	font-family:"Trebuchet MS", "Lucida Grande", Helvetica, sans-serif;
-	text-align:center;
-	font-size:15px;
-	box-sizing:border-box; 
-	-moz-box-sizing:border-box;
-}
-
 #loadIndicator{
 	width:100%; padding:6px; position:fixed;
 	top:0; left:0; margin:auto;
