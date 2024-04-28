@@ -65,9 +65,21 @@ body[data-scaled-to="h"] .paper-vertical:after { display:none; }
 body[data-scaled-to='h'] .paper-horizontal { margin:0; }
 body[data-scaled-to='h'] .paper-horizontal .page { margin-top:0; }
 
+#in5footer,#demoNote,#loadIndicator{
+	min-width:100%;
+	color:#fff;
+	background:#666;
+	font-family:"Trebuchet MS", "Lucida Grande", Helvetica, sans-serif;
+	text-align:center;
+	font-size:15px;
+	box-sizing:border-box; 
+	-moz-box-sizing:border-box;
+}
+
 #loadIndicator{
 	width:100%; padding:6px; position:fixed;
 	top:0; left:0; margin:auto;
+    box-shadow:0 2px 4px rgba(0, 0, 0, 0.3);
     transition:all 1s ease-in .5s;
     opacity:1; z-index:99;
 }
@@ -498,3 +510,5 @@ p.No-Paragraph-Style {
 
 span.None {
 }
+
+
