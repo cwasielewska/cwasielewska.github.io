@@ -443,7 +443,8 @@ body, #container-wrap { background:transparent; }
 :-webkit-full-screen { background:transparent; }
 #loadIndicator span:after { padding-left:1ex; content:'loading content...'; }
 .page-scale-wrap { width:1080px; height: 820px; background: transparent !important; }
-.paper-vertical { width:1080px; height:100%; }
+.paper-vertical { width:1080px; }
+/* .paper-vertical { width:1080px; height:100%; } */
 .paper-horizontal { width:1090px; height:1092px; }
 @media all and (max-height:1080px) {
 	.paper-horizontal { margin:0;top:0;}
