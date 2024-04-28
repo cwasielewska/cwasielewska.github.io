@@ -54,16 +54,16 @@ html.ios body[class*='scaled-'] #container { position:absolute; top:0; left:0; }
 body.tall-page {overflow-y:auto;}
 .liquid .page.tall-page {height:auto;}
 
-.paper-vertical:after {
+/* .paper-vertical:after {
     position:relative;
     content:' ';
     display:block;
     height:50px;
     clear:both;
-}
-body[data-scaled-to="h"] .paper-vertical:after { display:none; }
+} */
+/* body[data-scaled-to="h"] .paper-vertical:after { display:none; }
 body[data-scaled-to='h'] .paper-horizontal { margin:0; }
-body[data-scaled-to='h'] .paper-horizontal .page { margin-top:0; }
+body[data-scaled-to='h'] .paper-horizontal .page { margin-top:0; } */
 
 #in5footer,#demoNote,#loadIndicator{
 	min-width:100%;
