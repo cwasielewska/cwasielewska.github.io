@@ -220,13 +220,13 @@ object, embed, img, a { outline:0; }
 	background:#ccc; border:1px solid #666;
 }
 
-.paper-vertical, .paper-horizontal { padding:0 8px; }
+/* .paper-vertical, .paper-horizontal { padding:0 8px; }
 .flip { 
 	overflow:hidden; 
 	-webkit-transition:transform 0.3s ease-in-out;
 	-ms-transition:transform 0.3s ease-in-out;
 	transition:transform 0.3s ease-in-out;
-}
+} */
 .turn-page-wrapper{
 	will-change:transform;
 }
@@ -245,13 +245,13 @@ object, embed, img, a { outline:0; }
     top:0; bottom:0;
 }
 
-.paper-vertical .page, .paper-horizontal .page {
+/* .paper-vertical .page, .paper-horizontal .page {
 	border:1px solid #bbb;	
 	margin:4px 4px 4px 0;
 	-moz-box-shadow:0px 0px 0px #999;
 	-webkit-box-shadow:0px 0px 5px #999;
 	box-shadow:0px 0px 5px #999;
-}
+} */
 
 html[data-dir="rtl"] .paper-horizontal .page { float:right; }
 
